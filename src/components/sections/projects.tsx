@@ -20,7 +20,7 @@ const projects = [
     image: "/assets/projects/dominus.jpg",
     tags: ["Next.js", "TypeScript", "Canvas API", "CSS Modules"],
     github: "https://github.com/Vicenzolol/dominus",
-    live: "https://dominus-vercel.vercel.app",
+    live: "https://dominus-mocha.vercel.app",
     gradient: "from-purple-500 to-indigo-500",
   },
   {
@@ -28,8 +28,8 @@ const projects = [
     description: "Site de portfólio profissional com animações avançadas, efeitos 3D e design minimalista sofisticado.",
     image: "/assets/projects/portfolio.jpg",
     tags: ["Next.js", "Framer Motion", "Three.js", "Tailwind CSS"],
-    github: "https://github.com/Vicenzolol/portfolio",
-    live: "https://portfolio-vicenzo.vercel.app",
+    github: "/",
+    live: "/",
     gradient: "from-blue-500 to-cyan-500",
   },
 ];

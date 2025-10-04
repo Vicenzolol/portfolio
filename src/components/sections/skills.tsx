@@ -222,28 +222,30 @@ export default function Skills() {
           transition={{ duration: 0.4, delay: 0.3 }}
           className="mt-20 text-center"
         >
-          <div className="glass inline-block rounded-2xl border border-foreground/10 bg-gradient-to-br from-foreground/5 to-foreground/[0.02] px-8 py-6 backdrop-blur-xl">
-            <div className="flex items-center gap-6">
+          <div className="glass mx-auto max-w-4xl rounded-2xl border border-foreground/10 bg-gradient-to-br from-foreground/5 to-foreground/[0.02] px-6 py-8 backdrop-blur-xl md:px-8">
+            <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center">
               <motion.div 
-                className="text-left"
+                className="text-center md:text-left"
                 whileHover={{ scale: 1.05, y: -2 }}
                 transition={{ duration: 0.2 }}
               >
                 <div className="mb-1 text-sm font-medium text-muted-foreground">Overall Expertise</div>
                 <div className="text-3xl font-bold text-foreground">Professional</div>
               </motion.div>
-              <div className="h-16 w-px bg-foreground/10" />
+              <div className="hidden h-16 w-px bg-foreground/10 md:block" />
+              <div className="h-px w-24 bg-foreground/10 md:hidden" />
               <motion.div 
-                className="text-left"
+                className="text-center md:text-left"
                 whileHover={{ scale: 1.05, y: -2 }}
                 transition={{ duration: 0.2 }}
               >
                 <div className="mb-1 text-sm font-medium text-muted-foreground">Years of Experience</div>
                 <div className="text-3xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">5+</div>
               </motion.div>
-              <div className="h-16 w-px bg-foreground/10" />
+              <div className="hidden h-16 w-px bg-foreground/10 md:block" />
+              <div className="h-px w-24 bg-foreground/10 md:hidden" />
               <motion.div 
-                className="text-left"
+                className="text-center md:text-left"
                 whileHover={{ scale: 1.05, y: -2 }}
                 transition={{ duration: 0.2 }}
               >

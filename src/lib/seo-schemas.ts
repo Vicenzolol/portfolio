@@ -6,11 +6,11 @@
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://portfolio-vicenzo.vercel.app/#person",
+  "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#person",
   name: "Vicenzo de Almeida Prucoli",
   alternateName: "Vicenzo Prucoli",
-  image: "https://portfolio-vicenzo.vercel.app/og-image.png",
-  url: "https://portfolio-vicenzo.vercel.app",
+  image: "https://portfolio-vicenzo-prucoli.vercel.app/favicon/android-chrome-512x512.png",
+  url: "https://portfolio-vicenzo-prucoli.vercel.app",
   jobTitle: "Desenvolvedor Full Stack",
   worksFor: {
     "@type": "Organization",
@@ -100,18 +100,18 @@ export const organizationSchema = {
 export const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://portfolio-vicenzo.vercel.app/#website",
-  url: "https://portfolio-vicenzo.vercel.app",
+  "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#website",
+  url: "https://portfolio-vicenzo-prucoli.vercel.app",
   name: "Vicenzo Prucoli - Desenvolvedor Full Stack",
   description:
     "Portfólio profissional de Vicenzo de Almeida Prucoli, desenvolvedor full stack especializado em React, Next.js, Laravel e tecnologias web modernas.",
   publisher: {
-    "@id": "https://portfolio-vicenzo.vercel.app/#person",
+    "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#person",
   },
   inLanguage: "pt-BR",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://portfolio-vicenzo.vercel.app/?s={search_term_string}",
+    target: "https://portfolio-vicenzo-prucoli.vercel.app/?s={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -119,14 +119,14 @@ export const websiteSchema = {
 export const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://portfolio-vicenzo.vercel.app/#webpage",
-  url: "https://portfolio-vicenzo.vercel.app",
+  "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#webpage",
+  url: "https://portfolio-vicenzo-prucoli.vercel.app",
   name: "Vicenzo Prucoli | Desenvolvedor Full Stack - Portfolio",
   isPartOf: {
-    "@id": "https://portfolio-vicenzo.vercel.app/#website",
+    "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#website",
   },
   about: {
-    "@id": "https://portfolio-vicenzo.vercel.app/#person",
+    "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#person",
   },
   description:
     "Portfólio profissional com projetos, experiências e habilidades em desenvolvimento web full stack.",
@@ -134,7 +134,7 @@ export const webPageSchema = {
   potentialAction: [
     {
       "@type": "ContactAction",
-      target: "https://portfolio-vicenzo.vercel.app/#contact",
+      target: "https://portfolio-vicenzo-prucoli.vercel.app/#contact",
     },
   ],
 };
@@ -145,7 +145,7 @@ export const profilePageSchema = {
   dateCreated: "2024-01-01T00:00:00+00:00",
   dateModified: new Date().toISOString(),
   mainEntity: {
-    "@id": "https://portfolio-vicenzo.vercel.app/#person",
+    "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#person",
   },
 };
 
@@ -157,43 +157,43 @@ export const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://portfolio-vicenzo.vercel.app",
+      item: "https://portfolio-vicenzo-prucoli.vercel.app",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Sobre",
-      item: "https://portfolio-vicenzo.vercel.app/#about",
+      item: "https://portfolio-vicenzo-prucoli.vercel.app/#about",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Habilidades",
-      item: "https://portfolio-vicenzo.vercel.app/#skills",
+      item: "https://portfolio-vicenzo-prucoli.vercel.app/#skills",
     },
     {
       "@type": "ListItem",
       position: 4,
       name: "Projetos",
-      item: "https://portfolio-vicenzo.vercel.app/#projects",
+      item: "https://portfolio-vicenzo-prucoli.vercel.app/#projects",
     },
     {
       "@type": "ListItem",
       position: 5,
       name: "Experiência",
-      item: "https://portfolio-vicenzo.vercel.app/#experience",
+      item: "https://portfolio-vicenzo-prucoli.vercel.app/#experience",
     },
     {
       "@type": "ListItem",
       position: 6,
       name: "Educação",
-      item: "https://portfolio-vicenzo.vercel.app/#education",
+      item: "https://portfolio-vicenzo-prucoli.vercel.app/#education",
     },
     {
       "@type": "ListItem",
       position: 7,
       name: "Contato",
-      item: "https://portfolio-vicenzo.vercel.app/#contact",
+      item: "https://portfolio-vicenzo-prucoli.vercel.app/#contact",
     },
   ],
 };
@@ -217,7 +217,7 @@ export function createProjectSchema(project: {
     url: project.url,
     image: project.image,
     author: {
-      "@id": "https://portfolio-vicenzo.vercel.app/#person",
+      "@id": "https://portfolio-vicenzo-prucoli.vercel.app/#person",
     },
     keywords: project.technologies.join(", "),
     dateCreated: project.dateCreated,
