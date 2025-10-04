@@ -218,38 +218,38 @@ export default function Skills() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.4, delay: 0.3 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-20 text-center"
         >
-          <div className="glass mx-auto max-w-4xl rounded-2xl border border-foreground/10 bg-gradient-to-br from-foreground/5 to-foreground/[0.02] px-6 py-8 backdrop-blur-xl md:px-8">
+          <div className="glass relative mx-auto max-w-4xl rounded-2xl border border-foreground/10 bg-gradient-to-br from-foreground/5 to-foreground/[0.02] px-6 py-8 backdrop-blur-xl md:px-8 shadow-lg">
             <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center">
               <motion.div 
                 className="text-center md:text-left"
                 whileHover={{ scale: 1.05, y: -2 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="mb-1 text-sm font-medium text-muted-foreground">Overall Expertise</div>
+                <div className="mb-1 text-sm font-medium text-muted-foreground uppercase tracking-wide">Overall Expertise</div>
                 <div className="text-3xl font-bold text-foreground">Professional</div>
               </motion.div>
-              <div className="hidden h-16 w-px bg-foreground/10 md:block" />
-              <div className="h-px w-24 bg-foreground/10 md:hidden" />
+              <div className="hidden h-16 w-px bg-foreground/20 md:block" />
+              <div className="h-px w-24 bg-foreground/20 md:hidden" />
               <motion.div 
                 className="text-center md:text-left"
                 whileHover={{ scale: 1.05, y: -2 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="mb-1 text-sm font-medium text-muted-foreground">Years of Experience</div>
+                <div className="mb-1 text-sm font-medium text-muted-foreground uppercase tracking-wide">Years of Experience</div>
                 <div className="text-3xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">5+</div>
               </motion.div>
-              <div className="hidden h-16 w-px bg-foreground/10 md:block" />
-              <div className="h-px w-24 bg-foreground/10 md:hidden" />
+              <div className="hidden h-16 w-px bg-foreground/20 md:block" />
+              <div className="h-px w-24 bg-foreground/20 md:hidden" />
               <motion.div 
                 className="text-center md:text-left"
                 whileHover={{ scale: 1.05, y: -2 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="mb-1 text-sm font-medium text-muted-foreground">Projects Completed</div>
+                <div className="mb-1 text-sm font-medium text-muted-foreground uppercase tracking-wide">Projects Completed</div>
                 <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">50+</div>
               </motion.div>
             </div>

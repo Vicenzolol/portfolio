@@ -14,7 +14,7 @@
 
 **Site de portfólio profissional moderno e sofisticado com animações avançadas, efeitos 3D e design minimalista**
 
-[Demo ao Vivo](https://portfolio-vicenzo.vercel.app)
+[Demo ao Vivo](https://portfolio-vicenzo-prucoli.vercel.app)
 
 </div>
 
@@ -952,7 +952,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 **Vicenzo de Almeida Prucoli**
 
-- 🌐 Portfolio: [portfolio-vicenzo.vercel.app](https://portfolio-vicenzo.vercel.app)
+- 🌐 Portfolio: [portfolio-vicenzo-prucoli.vercel.app](https://portfolio-vicenzo-prucoli.vercel.app)
 - 💼 LinkedIn: [Vicenzo Almeida](https://linkedin.com/in/vicenzo-almeida/)
 - 📧 Email: vicenzo.alp@gmail.com
 - 💻 GitHub: [@Vicenzolol](https://github.com/Vicenzolol)

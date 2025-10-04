@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://portfolio-vicenzo.vercel.app/sitemap.xml
+Sitemap: https://portfolio-vicenzo-prucoli.vercel.app/sitemap.xml
 
 # Regras específicas para Google
 User-agent: Googlebot

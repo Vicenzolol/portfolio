@@ -5,7 +5,7 @@ import { MetadataRoute } from "next";
  * @see https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots
  */
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio-vicenzo.vercel.app";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio-vicenzo-prucoli.vercel.app";
 
   return {
     rules: [
