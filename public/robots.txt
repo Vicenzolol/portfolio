@@ -1,0 +1,24 @@
+# robots.txt para Vicenzo Prucoli Portfolio
+
+# Permitir todos os crawlers em todas as páginas
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://portfolio-vicenzo.vercel.app/sitemap.xml
+
+# Regras específicas para Google
+User-agent: Googlebot
+Allow: /
+
+# Regras específicas para Bing
+User-agent: Bingbot
+Allow: /
+
+# Bloquear acesso a arquivos sensíveis (caso existam no futuro)
+Disallow: /api/
+Disallow: /_next/static/
+Disallow: /*.json$
+
+# Crawl-delay (opcional, ajuste conforme necessário)
+Crawl-delay: 1
