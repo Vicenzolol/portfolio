@@ -105,9 +105,9 @@ export const metadata: Metadata = {
       "Desenvolvedor Full Stack com experiência em React, Next.js, TypeScript, Laravel e PHP. Confira meus projetos e entre em contato!",
     images: [
       {
-        url: `${siteUrl}/og-image.png`,
-        width: 1200,
-        height: 630,
+        url: `${siteUrl}/favicon/android-chrome-512x512.png`,
+        width: 512,
+        height: 512,
         alt: "Vicenzo Prucoli - Desenvolvedor Full Stack",
         type: "image/png",
       },
@@ -119,7 +119,7 @@ export const metadata: Metadata = {
     title: "Vicenzo Prucoli | Desenvolvedor Full Stack",
     description:
       "Desenvolvedor Full Stack especializado em React, Next.js, Laravel e tecnologias web modernas.",
-    images: [`${siteUrl}/og-image.png`],
+    images: [`${siteUrl}/favicon/android-chrome-512x512.png`],
     creator: "@vicenzolol",
     site: "@vicenzolol",
   },
